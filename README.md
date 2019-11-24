@@ -1,6 +1,6 @@
 # Запуск проекта на плате DE0-Nano
 ## Подключение компонентов
-![]()
+![](https://github.com/korasik/SAS_LR2/blob/master/readme_img/de0-nano/de0-nano-v1.png)
 
 ![](https://github.com/korasik/SAS_LR2/blob/master/readme_img/de0-nano/1.jpg)
 
