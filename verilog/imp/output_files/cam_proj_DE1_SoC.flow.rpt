@@ -1,0 +1,145 @@
+Flow report for cam_proj_DE1_SoC
+Tue Nov 19 23:45:24 2019
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Tue Nov 19 23:45:24 2019       ;
+; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
+; Revision Name                   ; cam_proj_DE1_SoC                            ;
+; Top-level Entity Name           ; cam_proj_top                                ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEMA5F31C6                                ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 2,657 / 32,070 ( 8 % )                      ;
+; Total registers                 ; 2498                                        ;
+; Total pins                      ; 87 / 457 ( 19 % )                           ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 363,183 / 4,065,280 ( 9 % )                 ;
+; Total DSP Blocks                ; 33 / 87 ( 38 % )                            ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 2 / 6 ( 33 % )                              ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 11/19/2019 23:36:51 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; cam_proj_DE1_SoC    ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                               ;
++-------------------------------------+---------------------------------------+------------------+--------------+----------------+
+; Assignment Name                     ; Value                                 ; Default Value    ; Entity Name  ; Section Id     ;
++-------------------------------------+---------------------------------------+------------------+--------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 31032342893508.157419581104828        ; --               ; --           ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                           ; --               ; --           ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim (Verilog)                    ; <None>           ; --           ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                                  ; --               ; --           ; eda_simulation ;
+; ENABLE_SIGNALTAP                    ; Off                                   ; --               ; --           ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --               ; --           ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --               ; --           ; --             ;
+; MISC_FILE                           ; pll_bb.v                              ; --               ; --           ; --             ;
+; MISC_FILE                           ; pll.ppf                               ; --               ; --           ; --             ;
+; MISC_FILE                           ; pll_for_disp_bb.v                     ; --               ; --           ; --             ;
+; MISC_FILE                           ; pll_for_disp.ppf                      ; --               ; --           ; --             ;
+; MISC_FILE                           ; fifo_big_bb.v                         ; --               ; --           ; --             ;
+; PARTITION_COLOR                     ; 16764057                              ; --               ; cam_proj_top ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --               ; cam_proj_top ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --               ; cam_proj_top ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --               ; --           ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --               ; --           ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                          ; --               ; --           ; --             ;
+; TOP_LEVEL_ENTITY                    ; cam_proj_top                          ; cam_proj_DE1_SoC ; --           ; --             ;
+; USE_SIGNALTAP_FILE                  ; output_files/stp1.stp                 ; --               ; --           ; --             ;
+; VERILOG_INPUT_VERSION               ; SystemVerilog_2005                    ; Verilog_2001     ; --           ; --             ;
+; VERILOG_MACRO                       ; nornal=1                              ; --               ; --           ; --             ;
+; VERILOG_SHOW_LMF_MAPPING_MESSAGES   ; Off                                   ; --               ; --           ; --             ;
++-------------------------------------+---------------------------------------+------------------+--------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:33     ; 1.0                     ; 1366 MB             ; 00:00:44                           ;
+; Fitter                    ; 00:06:53     ; 1.0                     ; 2476 MB             ; 00:09:03                           ;
+; Assembler                 ; 00:00:13     ; 1.0                     ; 1250 MB             ; 00:00:13                           ;
+; TimeQuest Timing Analyzer ; 00:00:47     ; 1.0                     ; 1578 MB             ; 00:00:47                           ;
+; EDA Netlist Writer        ; 00:00:04     ; 1.0                     ; 1593 MB             ; 00:00:04                           ;
+; Total                     ; 00:08:30     ; --                      ; --                  ; 00:10:51                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                         ;
++---------------------------+------------------+------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++---------------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis      ; linux-3w2u       ; SUSE LINUX ; 42         ; x86_64         ;
+; Fitter                    ; linux-3w2u       ; SUSE LINUX ; 42         ; x86_64         ;
+; Assembler                 ; linux-3w2u       ; SUSE LINUX ; 42         ; x86_64         ;
+; TimeQuest Timing Analyzer ; linux-3w2u       ; SUSE LINUX ; 42         ; x86_64         ;
+; EDA Netlist Writer        ; linux-3w2u       ; SUSE LINUX ; 42         ; x86_64         ;
++---------------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off cam_proj -c cam_proj_DE1_SoC
+quartus_fit --read_settings_files=off --write_settings_files=off cam_proj -c cam_proj_DE1_SoC
+quartus_asm --read_settings_files=off --write_settings_files=off cam_proj -c cam_proj_DE1_SoC
+quartus_sta cam_proj -c cam_proj_DE1_SoC
+quartus_eda --read_settings_files=off --write_settings_files=off cam_proj -c cam_proj_DE1_SoC
+
+
+

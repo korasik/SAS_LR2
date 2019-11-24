@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Tue Nov 19 23:37:21 2019
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : cam_proj_DE1_SoC
+Top-level Entity Name : cam_proj_top
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 2383
+Total pins : 87
+Total virtual pins : 0
+Total block memory bits : 363,183
+Total DSP Blocks : 33
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 2
+Total DLLs : 0
